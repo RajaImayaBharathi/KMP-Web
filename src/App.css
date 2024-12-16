@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Manrope:wght@200..800&display=swap");
+
+/* .navbar {
+  z-index: 1000;
+} */
+
+.app-container {
+  position: relative; /* To position the background grid relative to this container */
+  padding: 20px;
+}
+
+.grid-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+              linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0px, transparent 0px);
+  background-size: 200px 140px;
+  background-position: 0 0, 0 0;
+  min-width: 1900px; /* Apply min-width only to the grid background */
+  z-index: -1; /* Ensure background is behind content */
+}
+
+.content {
+  position: relative; /* Ensures the content stays on top of the background */
+}
+
