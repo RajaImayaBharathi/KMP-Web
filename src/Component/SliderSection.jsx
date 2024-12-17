@@ -17,7 +17,7 @@ const SliderSection = () => {
       setTimeout(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFadeIn(true); // Start fade in after the image is changed
-      }, 500); // Timeout duration should match the fade-out duration
+      }, 300); // Timeout duration should match the fade-out duration
     }, 4000);
 
     return () => clearInterval(interval);
