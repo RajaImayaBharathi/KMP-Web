@@ -6,7 +6,7 @@ const ExperianceSection = () => {
   return (
     <React.Fragment>
       <section className="md:flex w-full mb-10 justify-center items-center font-manrope">
-        <div className="flex flex-col md:w-1/3 p-6">
+        <div className="flex flex-col md:w-1/3 ">
           <strong className="lg:text-[150px] md:text-[130px] text-[95px] text-blue-900 font-bold">
             20+
           </strong>
@@ -22,7 +22,7 @@ const ExperianceSection = () => {
             industry, offering comprehensive and tailored solutions...
           </p>
         </div>
-        <div className="md:ml-20 md:w-2/3 p-6">
+        <div className="md:ml-20 md:w-2/3 mt-6 md:mt-0">
           <h2 className={headingClass}>Logistics & Transportation Solutions</h2>
         </div>
       </section>
@@ -32,18 +32,16 @@ const ExperianceSection = () => {
       </div>
 
       <section className="md:flex w-full mb-20 justify-center items-center font-manrope">
-        <div className="flex flex-col md:w-1/3 p-6">
+        <div className="flex flex-col md:w-1/3">
           <strong className={headingClass}>Process</strong>
         </div>
-        <div className="md:ml-20 md:w-2/3 p-6">
+        <div className="md:ml-20 md:w-2/3 ">
           <p className="mt-2 text-sm font-bellota text-blue-900">
             KMP Speed Parcel Service is your dependable partner for all your Speed Parcel Serves, Logistics and Transportion needs. With our rich experience, comprehensive service offerings, and unwavering dedication to customer satisfaction, we ensure that your goods are transported efficiently, safely, and on time. trust us to optimize you supply chain and drive your busniess forward.
           </p>
         </div>
       </section>
-
-      
-    </React.Fragment>
+    </React.Fragment> 
   );
 };
 

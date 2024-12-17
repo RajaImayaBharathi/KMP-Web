@@ -8,14 +8,13 @@ const BlogSection = () => {
       <section>
       <div className="font-manrope">
           <section className="py-16">
-            <h2 className="text-5xl font-bold text-blue-900">Explore Our</h2>
-            <h2 className="text-5xl font-bold text-blue-900 ml-12 pt-2">Stories and Blogs</h2>
+            <strong className="sm:text-[45px] text-[35px] text-blue-900">Explore Our</strong><br />
+            <strong className="sm:text-[45px] text-[35px] text-blue-900 pl-5">Stories and Blogs</strong>
           </section>
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Blog
               tags="Delivery Excellence"
               title="Real Stories, Real Speed"
-              /* imgSrc="https://placehold.co/600x400" */
               imgSrc="/images/sunsetview.jpg"
               description="See how we’ve made timely deliveries and built trust with our clients. Our commitment to speed and precision ensures that every package reaches its destination without delay. From small parcels to large shipments, we prioritize accuracy and reliability at every step."
             />
