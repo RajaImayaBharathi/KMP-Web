@@ -69,7 +69,7 @@ const Footer = () => {
       </section>
 
       <section className="flex flex-col items-center mb-10">
-        <ul className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
+        <ul className="grid grid-cols-2 grid-cols-2 sm:grid-cols-4 gap-4 ">
           {footerData[0].menu.map((item, index) => (
             <li key={index} className="text-center sm:text-left">
               <a href={item.link} className="text-sm hover:text-blue-500">
