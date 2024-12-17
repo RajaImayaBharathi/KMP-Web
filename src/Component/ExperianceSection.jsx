@@ -1,6 +1,6 @@
 import React from "react";
 const headingClass =
-  "lg:text-[80px] md:text[75px] sm:text-[55px] text-[45px] text-blue-900 font-bold";
+  "lg:text-[80px] md:text[75px] sm:text-[55px] text-[45px] text-blue-900 font-bold ";/* md:text-right */
 
 const ExperianceSection = () => {
   return (

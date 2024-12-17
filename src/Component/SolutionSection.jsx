@@ -41,16 +41,15 @@ const SolutionSection = () => {
             <strong className="sm:text-[45px] text-[35px] text-blue-900">
               Solutions
             </strong>
-            <button className="py-1 px-3 border border-blue-900 text-blue-900 hover:text-white hover:bg-blue-900 transition-all duration-300 ml-6 mt-2 sm:text-[16px] text-[12px] font-bellota">
+            <button className="py-1 px-3 border border-blue-900 text-blue-900 hover:text-white hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 ml-6 mt-2 sm:text-[16px] text-[12px] font-bellota">
               See All
             </button>
           </div>
           <div className="space-x-2 sm:mt-2 mt-4">
-            <button className="py-1 px-3 border hover:bg-blue-900 transition-all duration-300 hover:text-white border-blue-900">
+            <button className="py-1 px-3 border hover:bg-blue-600 transition-all duration-300 hover:text-white border-blue-900 hover:border-blue-600">
               <IoIosArrowRoundBack />
             </button>
-            <button className="py-1 px-3 border text-white bg-blue-900">
-              {/* bg-[#1e1e1e] */}
+            <button className="py-1 px-3 border text-white bg-blue-900 hover:bg-blue-600">
               <IoIosArrowRoundForward />
             </button>
           </div>
@@ -60,7 +59,7 @@ const SolutionSection = () => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="flex flex-col justify-between p-5 border border-blue-900 rounded shadow-sm bg-white hover:bg-blue-900 text-blue-900 hover:text-white hover:-translate-y-1.5 hover:shadow-md transition-all duration-300"
+              className="flex flex-col justify-between p-5 border border-blue-900 rounded shadow-sm bg-white hover:bg-blue-600 hover:border-blue-600 text-blue-900 hover:text-white hover:-translate-y-1.5 hover:shadow-md transition-all duration-300"
             >
               <div className="">
                 <div className="flex items-center justify-center w-26 h-20 mb-6 rounded-full bg-white shadow-md text-blue-900 border">
@@ -71,7 +70,7 @@ const SolutionSection = () => {
                   />
                 </div>
                 <h6 className="mb-4 font-semibold leading-5 ">{card.title}</h6>
-                <p className="mb-3 text-sm font-bellota">{card.description}</p>
+                <p className="mb-3 text-sm font-bellota tracking-wide">{card.description}</p>
               </div>
               <a
                 href={card.link}

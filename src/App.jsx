@@ -10,13 +10,14 @@ import Testimonials from "./Component/Testimonials";
 import MapSection from "./Component/MapSection";
 import Footer from "./Component/Footer";
 import SliderSection from "./Component/SliderSection";
+import HeroSection from "./Component/HeroSection";
 
 function App() {
   return (
     <React.Fragment>
       <div className=" max-w-[1400px] mx-auto md:px-10 px-5">{/* app-container */}
         {/* <div className="grid-background"></div> */}
-        
+        <HeroSection/>
         <SliderSection/>
         <SolutionSection />
         <ExperianceSection/>

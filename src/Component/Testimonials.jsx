@@ -70,10 +70,10 @@ const Testimonials = () => {
 
         <div className="w-full md:w-1/4 px-4 mt-4 sm:mt-0 order-3 sm:order-3">
           <div className="flex justify-center sm:justify-end space-x-2">
-            <button className="py-1 px-3 border hover:bg-blue-900 transition-all duration-300 hover:text-white border-blue-900">
+            <button className="py-1 px-3 border hover:bg-blue-600 transition-all duration-300 hover:text-white border-blue-900 hover:border-blue-600">
               <IoIosArrowRoundBack />
             </button>
-            <button className="py-1 px-3 border text-white bg-blue-900">
+            <button className="py-1 px-3 border text-white hover:bg-blue-600 bg-blue-900">
               <IoIosArrowRoundForward />
             </button>
           </div>

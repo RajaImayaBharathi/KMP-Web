@@ -6,9 +6,9 @@ const SliderSection = () => {
   const [fadeIn, setFadeIn] = useState(true);
 
   const images = [
-    "/images/Minimalistic Creative Agency Business Banner(4).png",
-    "/images/Minimalistic Creative Agency Business Banner(2).png",
-    "/images/Minimalistic.png",
+    "/images/slider1.png",
+    "/images/slider2.png",
+    "/images/slider3.png",
   ];
 
   useEffect(() => {
@@ -27,15 +27,14 @@ const SliderSection = () => {
     <section className="mt-20 relative">
       <img
         src={images[currentIndex]}
-        alt="Slider Image"
         className={`rounded-md w-full transition-opacity duration-500 ease-in-out ${fadeIn ? "opacity-100" : "opacity-0"}`}
       />
       <div className="flex justify-center mt-4">
         {images.map((_, index) => (
           <div
             key={index}
-            className={`w-28 h-[3px] mx-2 rounded-full ${
-              index === currentIndex ? "bg-blue-900" : "bg-gray-300 opacity-50"
+            className={`w-28 h-[2px] mx-2 rounded-full ${
+              index === currentIndex ? "bg-blue-600 h-[5px]" : "bg-blue-900 opacity-[30%]"
             }`}
           ></div>
         ))}
