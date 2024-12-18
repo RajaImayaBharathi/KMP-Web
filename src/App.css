@@ -4,8 +4,8 @@
   z-index: 1000;
 } */
 
-.app-container {
-  position: relative; /* To position the background grid relative to this container */
+/* .app-container {
+  position: relative;
   padding: 20px;
 }
 
@@ -19,11 +19,32 @@
               linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0px, transparent 0px);
   background-size: 200px 140px;
   background-position: 0 0, 0 0;
-  min-width: 1900px; /* Apply min-width only to the grid background */
-  z-index: -1; /* Ensure background is behind content */
+  min-width: 1900px; 
+  z-index: -1; 
+}
+.content {
+  position: relative; 
+}
+ */
+ /* App.css */
+
+/* Add this class to the app container */
+.app-container {
+  position: relative; /* Ensures pseudo-elements are positioned correctly */
+  overflow: hidden; /* Prevents overflow from pseudo-elements */
 }
 
-.content {
-  position: relative; /* Ensures the content stays on top of the background */
+.app-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0px, transparent 0px);
+  background-size: 140px 20px; /* Adjust size of the grid squares */
+  pointer-events: none; /* Allows clicks to pass through to content */
+  z-index: -1; /* Places the grid behind all content */
 }
 

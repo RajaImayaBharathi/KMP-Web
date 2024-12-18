@@ -15,17 +15,19 @@ import HeroSection from "./Component/HeroSection";
 function App() {
   return (
     <React.Fragment>
-      <div className=" max-w-[1400px] mx-auto md:px-10 px-5">{/* app-container */}
-        {/* <div className="grid-background"></div> */}
-        <HeroSection/>
-        <SliderSection/>
-        <SolutionSection />
-        <ExperianceSection/>
-        <BlogSection/>
-        <Testimonials/>
-        <MapSection/>
-      </div>
-      <Footer/>
+      <main className="app-container">
+        <div className=" max-w-[1400px] mx-auto md:px-10 px-5">
+          {/* app-container */}
+          <HeroSection />
+          <SliderSection />
+          <SolutionSection />
+          <ExperianceSection />
+          <BlogSection />
+          <Testimonials />
+          <MapSection />
+        </div>
+      </main>
+      <Footer />
     </React.Fragment>
   );
 }
