@@ -30,7 +30,7 @@ const Footer = () => {
               KMP Speed Parcel Services
             </span>
           </a>
-          <p className="text-green-500 mb-5 text-sm tracking-wider">Smiles Beyond miles</p>
+          <p className="text-blue-400 mb-5 text-sm tracking-wider">Smiles Beyond miles</p>
           <div className="grid gap-10 row-gap-10 mb-8 lg:grid-cols-2">
             <div className="space-y-4">
               {[
@@ -80,8 +80,8 @@ const Footer = () => {
         </ul>
       </section>
 
-      <section className="flex flex-wrap justify-between items-center text-sm px-5 space-y-4 md:space-y-0">
-        <p className="w-full md:w-auto text-center tracking-wider">
+      <section className=" flex flex-wrap justify-between items-center text-sm px-5 space-y-6 md:space-y-0">
+        <p className="order-3 md:order-1 py-6 md:py-0 w-full md:w-auto text-center tracking-wider">
           Managed By{" "}
           <a
             href="https://metaphorhub.com/"
@@ -92,10 +92,10 @@ const Footer = () => {
             Metaphor Hub
           </a>
         </p>
-        <p className="w-full md:w-auto text-center md:text-left text-gray-400">
+        <p className="order-1 md:order-2 w-full md:w-auto text-center md:text-left text-gray-400">
           © 2024 KMP Speed Parcel Services. All rights reserved.
         </p>
-        <div className="flex justify-center md:justify-end space-x-4 w-full md:w-auto">
+        <div className="order-2 md:order-3 flex justify-center md:justify-end space-x-4 w-full md:w-auto">
           <FaWhatsapp className="cursor-pointer hover:text-green-500 text-[18px]" />
           <RiFacebookCircleLine className="cursor-pointer hover:text-blue-500 text-[18px]" />
           <FaInstagram className="cursor-pointer hover:text-pink-500 text-[18px]" />
