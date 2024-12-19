@@ -19,7 +19,7 @@ const ExperianceSection = () => {
           <p className="mt-2 text-sm font-bellota text-blue-900">
             With over 20 years of experience, KMP Logistics & Transportation
             Solution is a trusted leader in the logistics and transportation
-            industry, offering comprehensive and tailored solutions...
+            industry, offering comprehensive and tailored solutions.
           </p>
         </div>
         <div className="md:ml-20 md:w-2/3 mt-6 md:mt-0">
