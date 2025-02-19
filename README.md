@@ -1,8 +1,27 @@
-# React + Vite
+# 📦 KMP Speed Parcel Service - Logistics Web Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🌟 Live: [KMP Speed Parcel Service](kmpspeedparcelservice.vercel.app)
 
-Currently, two official plugins are available:
+### 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+KMP Speed Parcel Service is a logistics-based enterprise that required a stunning online presence and an advanced fleet and booking management portal. This project aimed to create a highly responsive and visually appealing website with a powerful admin dashboard for efficient logistics monitoring.
+
+### 🎯 Key Features
+
+Modern UI/UX: A visually engaging and intuitive website for customers to explore services.
+Fleet Management: A dedicated dashboard for managers to track and manage fleets in real time.
+Booking Portal: Customers can book shipments seamlessly with live tracking updates.
+Admin Dashboard: Centralized system for logistics monitoring, performance analytics, and report generation.
+Secure Authentication: Role-based access for managers and staff.
+Responsive Design: Optimized for mobile and desktop devices.
+
+
+### 🛠️ Tech Stack
+
+```
+Frontend: React.js, Tailwind CSS, Framer Motion Animation
+Backend: Node.js, Express.js
+Database: PostgreSQL
+Cloud & Hosting: AWS, vercel, postgreSQL
+Authentication: JWT, OAuth
+```
