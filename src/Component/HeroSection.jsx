@@ -29,7 +29,7 @@ const HeroSection = () => {
         </section>
 
         <section className="flex flex-col sm:flex-row w-full font-manrope items-center sm:items-start justify-center sm:justify-start">
-          <div className="flex flex-col sm:w-1/3 order-2 sm:order-1 text-left sm:text-left text-center items-center sm:items-start justify-center sm:justify-start">
+          <div className="flex flex-col sm:w-1/3 order-2 sm:order-1 sm:text-left text-center items-center sm:items-start justify-center sm:justify-start">
             <div>
               <p className="md:pr-5 lg:text-[14px] md:text-[12px] text-[11px]">
                 Explore more about KMP in ensuring the efficiency, reliability,
